@@ -13,8 +13,8 @@ const a = prompt('Один из просмотренных последних ф
       c = prompt('Один из просмотренных последних фильмов?',''),
       d = prompt('На сколько оцените его?','');
 
-personalMovieDB.movies[questionOne]= questionTwo;
-personalMovieDB.movies[questionThree]= questionFour;
+personalMovieDB.movies[a]= b;
+personalMovieDB.movies[c]= d;
 
 console.log(personalMovieDB);
 
@@ -70,8 +70,6 @@ console.log(personalMovieDB);
 
 // console.log(arrObj['b']);
 // console.log(arrObj.b);
-
-
 
 
 
