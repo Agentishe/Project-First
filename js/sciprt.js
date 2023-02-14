@@ -21,6 +21,12 @@ console.log(personalMovieDB);
 
 
 
+
+
+
+
+
+
 // console.log('arr' + " - object");
 
 
