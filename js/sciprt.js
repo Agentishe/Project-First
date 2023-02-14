@@ -1,104 +1,39 @@
 'use strict';
 
-const numberofFilms = +prompt ('Сколько фильмов Вы уже просмотрели?','');
-const personalMovieDB = {
-    count: numberofFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
-const a = prompt('Один из просмотренных последних фильмов?',''),
-      b = prompt('На сколько оцените его?',''),
-      c = prompt('Один из просмотренных последних фильмов?',''),
-      d = prompt('На сколько оцените его?','');
+if (4 == 4)  {
+    console.log("OK, it's correct!");
+} else {
+    console.log ("No,  it's not correct");
+}
 
-personalMovieDB.movies[a]= b;
-personalMovieDB.movies[c]= d;
+const num = 50;
 
-console.log(personalMovieDB);
+if (num < 49){
+    console.log('Error');
+} else if (num > 100){
+    console.log ('Too much');
+} else {
+    console.log('Fine');
+}
 
+const num = 50;
 
+(num === 50) ? console.log('Ok') : console.log('Error');
 
+const num = 50;
 
-
-
-
-
-
-
-// console.log('arr' + " - object");
-
-
-
-// console.log('hi' +'-me');
-// console.log(4 + 'letdown');
-
-
-// const category = 'toys';
-
-// console.log(`https://printscreen.com/${category}/5`);
-
-// const name = 'Ivan';
-
-// alert(`Hi, ${name} `);
-
-
-
-//alert('Hi everyone who is here with us');
-
-// const result = confirm('Are you here');
-// console.log(result);
-
-// const answer = +prompt("How old are you","");
-// console.log(answer + 5);
-
-// const answers = [];
-
-// answers[0] = prompt('What is your name','');
-// answers[1] = prompt('What are doing here ','');
-// answers[2] = prompt('Who are you ','');
-
-// document.write (answers);
-
-
-
-
-// const arr = ['a', 'b', 'c'];
-// const arrObj = {
-//     abc: 'a',
-//     bcd: 'd',
-//     2: 'f'
-// };
-
-// arrObj['b'] = '222';
-
-
-// console.log(arrObj['b']);
-// console.log(arrObj.b);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Exsample of Syntacsyse objects with array
-//const storeName = 'My awesome store';
-
-//const storeDescription = {
- //   budget: 10000,
-   // employees: ['Alex', 'John', 'Sam'],
-    //products: {
-      //  'soap': 20,
-        //'water': 5
-    //},
-   // open: true
-//}
+switch (num) {
+    case 49:
+        console.log('Not right');
+        break;
+    case 80:
+        console.log('Again, not right');
+        break;
+    case 50:
+        console.log('You get a target');
+        break;
+    default:
+        console.log('Not right');
+        break;       
+     
+}
