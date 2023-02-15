@@ -1,39 +1,24 @@
-'use strict';
 
-if (4 == 4)  {
-    console.log("OK, it's correct!");
-} else {
-    console.log ("No,  it's not correct");
-}
+// const hamburger = 3;
+// const fries = 1;
+// const cola = 2;
 
-const num = 50;
+// console.log(hamburger === 3 && fries  && cola );
 
-if (num < 49){
-    console.log('Error');
-} else if (num > 100){
-    console.log ('Too much');
-} else {
-    console.log('Fine');
-}
+// if (hamburger === 3 && fries === 1 && cola === 1){
+//     console.log('Well done');
+//  } else {
+//     console.log(' We are leaving from here');
+// }
 
-const num = 50;
+const hamburger = 3;
+const fries = 0;
+const cola = 0;
 
-(num === 50) ? console.log('Ok') : console.log('Error');
+// console.log(hamburger === 3 && fries  && cola );
 
-const num = 50;
-
-switch (num) {
-    case 49:
-        console.log('Not right');
-        break;
-    case 80:
-        console.log('Again, not right');
-        break;
-    case 50:
-        console.log('You get a target');
-        break;
-    default:
-        console.log('Not right');
-        break;       
-     
+if (hamburger === 2 || fries || cola ){
+    console.log('Well done');
+ } else {
+    console.log(' We are glad to be with you');
 }
